@@ -1,0 +1,54 @@
+#navbar{
+  position: fixed;
+  height: 100%;
+  min-width: 300px;
+  width: 300px;
+  
+  top: 0px;
+  left: 0px;
+  
+  color: black;
+  background-color: white;
+  padding: 75px 0px;
+  
+}
+
+@media only screen and (max-width: 800px) 
+{
+  /* For mobile phone::*/ 
+
+  
+#VD_logo {
+    position: absolute;
+    height: auto;
+    min-width: 300px; 
+    width: 300px;
+    
+    top: 10px;
+    left: 0px;
+    
+    z-index: 2;    
+}
+
+.header_text {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-gap: 50px;
+  gird-auto-rows: minmax(100px, auto);
+
+  width: 100%;
+  height: auto;
+
+  position: absolute;
+  top: 10vw;
+  left:300px;
+  z-index: 2;
+
+}
+
+#main-doc {
+  position:relative;
+  margin-left: 0px;
+  margin-top: 300px;
+
+}
